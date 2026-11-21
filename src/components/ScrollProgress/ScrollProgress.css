@@ -1,0 +1,14 @@
+.scroll-progress {
+  width: 52px;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(31, 32, 30, 0.1);
+  overflow: hidden;
+}
+.scroll-progress span {
+  display: block;
+  height: 100%;
+  background: var(--terracotta);
+  transform-origin: left;
+  transform: scaleX(0);
+}

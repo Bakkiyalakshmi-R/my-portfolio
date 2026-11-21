@@ -1,0 +1,203 @@
+.contact__card {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 97px 57px 57px;
+  border-radius: var(--radius-xl);
+  background: rgba(220, 228, 214, 0.35);
+  border: 1px solid rgba(60, 75, 55, 0.3);
+  box-shadow: 0 12px 48px rgba(72, 89, 66, 0.1);
+}
+.contact__grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 48px;
+  align-items: center;
+}
+.contact__left {
+  grid-column: 1 / span 7;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contact__left h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(24px, 3.4vw, 28px);
+  line-height: 1.38;
+  letter-spacing: -0.25px;
+}
+.contact__lede {
+  max-width: 576px;
+  font-size: clamp(16px, 2.2vw, 18px);
+  line-height: 1.62;
+  color: var(--ink-90);
+}
+.contact__langs {
+  max-width: 576px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 21px;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--line);
+}
+.contact__langs .kicker {
+  color: var(--forest);
+  letter-spacing: 0.55px;
+}
+.contact__langs q {
+  quotes: none;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: var(--ink-90);
+}
+.contact__langs q::before {
+  content: '“';
+}
+.contact__langs q::after {
+  content: '”';
+}
+.contact__langs ul {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0 0;
+  display: flex;
+  gap: 16px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+.contact__langs .is-accent {
+  color: var(--terracotta);
+}
+.contact__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-top: 8px;
+}
+.contact__buttons .btn--primary span:last-child {
+  text-align: left;
+}
+.contact__addr {
+  overflow-wrap: anywhere;
+}
+.contact__right {
+  grid-column: 8 / span 5;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.channel {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 17px;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--line);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+a.channel:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(41, 42, 39, 0.1);
+}
+.channel__icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--tone) 15%, transparent);
+  color: var(--tone);
+}
+.channel__icon--olive {
+  background: rgba(118, 130, 46, 0.3);
+  color: var(--forest);
+}
+.channel__text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+.channel__text span {
+  overflow-wrap: anywhere;
+}
+.channel__text .mono {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--ink-70);
+}
+.contact__card .cform {
+  max-width: 100%;
+}
+.contact__colophon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  border-top: 1px solid var(--line-soft);
+}
+.contact__colophon .mono {
+  color: var(--ink-70);
+}
+.contact__sign {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: var(--forest) !important;
+}
+.contact__sign i {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--forest);
+}
+
+@media (max-width: 1024px) {
+  .contact__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .contact__left,
+  .contact__right {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 560px) {
+  .contact__card {
+    padding: 48px 18px 28px;
+    gap: 32px;
+  }
+  .contact__buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  /* Keep the email address on its own line instead of wrapping mid-address */
+  .contact__addr {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.92;
+    overflow-wrap: anywhere;
+  }
+}
