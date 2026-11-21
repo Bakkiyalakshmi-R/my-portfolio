@@ -33,7 +33,7 @@ export default function Education() {
             <article className="edu__card edu__card--score">
               <div>
                 <span className="kicker">Consolidated Score</span>
-                <strong>83.06 %</strong>
+                <strong>81.4 %</strong>
                 <p>Overall percentage in B.Sc. Computer Science.</p>
               </div>
               <span className="edu__cap" aria-hidden="true">

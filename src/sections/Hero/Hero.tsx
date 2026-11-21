@@ -47,18 +47,23 @@ export default function Hero() {
               </a>
             </div>
           </div>
-
-          <aside className="hero__callout" data-parallax aria-label="Scene note">
-            <div className="hero__callout-glow" aria-hidden="true" />
-            <div className="hero__callout-head">
-              <span className="kicker tone-terracotta">Sculptural Installation</span>
-              <span className="mono">Canvas 01</span>
-            </div>
-            <blockquote>
-              “Translucent geometry, kinetic terracotta toroids and chartreuse light vectors suspended in
-              continuous computational balance.”
-            </blockquote>
-          </aside>
+          <aside className="hero__facts" aria-label="Highlights">
+  <span className="kicker tone-terracotta">Highlights</span>
+  <dl className="hero__fact-list">
+    <div>
+      <dt>81.4 %</dt>
+      <dd>B.Sc. Computer Science</dd>
+    </div>
+    <div>
+      <dt>2</dt>
+      <dd>Projects: WattGuard AI &amp; Student Activity Tracker</dd>
+    </div>
+    <div>
+      <dt>1</dt>
+      <dd>Cybersecurity internship at Staunch Technologies</dd>
+    </div>
+  </dl>
+</aside>
         </div>
       </div>
     </section>

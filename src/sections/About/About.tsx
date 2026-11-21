@@ -55,7 +55,7 @@ export default function About() {
               <span className="kicker" style={{ ['--tone' as string]: 'var(--plum)' }}>
                 Academic Merit
               </span>
-              <strong className="pedestal__figure">83.06 %</strong>
+              <strong className="pedestal__figure">81.4 %</strong>
               <p>Overall percentage in B.Sc. Computer Science.</p>
               <footer className="pedestal__foot tone-plum">
                 <Icon name="verified" size={13} />
