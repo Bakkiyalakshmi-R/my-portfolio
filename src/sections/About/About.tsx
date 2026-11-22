@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="identity" className="scene about" aria-labelledby="about-title" data-scene>
       <div className="container scene-inner tone-plum">
-        <SceneEyebrow tone="plum" label="Scene 02 — Sculptural Gallery" />
+        <SceneEyebrow tone="plum" label="The Portrait Gallery" />
         <h2 id="about-title" className="scene-heading" data-enter>
           A Little About <em>My Journey.</em>
         </h2>

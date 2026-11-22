@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section id="exhibition" className="scene projects" aria-labelledby="projects-title" data-scene>
       <div className="container scene-inner tone-terracotta">
-        <SceneEyebrow label="Scene 06 — 3D Exhibition Gallery" />
+        <SceneEyebrow label="The Exhibition Hall" />
         <h2 id="projects-title" className="scene-heading" data-enter>
           Turning Ideas Into <em>Applications.</em>
         </h2>

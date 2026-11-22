@@ -7,7 +7,7 @@ export default function Education() {
   return (
     <section id="knowledge" className="scene education" aria-labelledby="edu-title" data-scene>
       <div className="container scene-inner tone-forest">
-        <SceneEyebrow tone="forest" label="Scene 03 — Journey to Knowledge" />
+        <SceneEyebrow tone="forest" label="The Learning Hall" />
         <h2 id="edu-title" className="scene-heading" data-enter>
           Where My Journey <em>Takes Shape.</em>
         </h2>

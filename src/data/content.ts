@@ -56,7 +56,7 @@ model = RandomForestClassifier(n_estimators=100,
                                random_state=42)
 model.fit(X_train, y_train)`,
     footer: 'LANGUAGE: Python',
-    note: 'Illustrative snippet of a Random Forest classification workflow like the one behind WattGuard AI.',
+    note: 'Example: a Random Forest classification workflow, similar to the approach used in WattGuard AI.',
   },
   {
     label: 'Java',
@@ -74,7 +74,7 @@ public class Main {
     }
 }`,
     footer: 'LANGUAGE: Java',
-    note: 'Illustrative snippet showing basic Java syntax.',
+    note: 'Example: a simple loop in Java.',
   },
   {
     label: 'C++',
@@ -92,7 +92,7 @@ int main() {
     return 0;
 }`,
     footer: 'LANGUAGE: C++',
-    note: 'Illustrative snippet showing basic C++ syntax.',
+    note: 'Example: a simple loop in C++.',
   },
   {
     label: 'SQL & MySQL',
@@ -106,7 +106,7 @@ WHERE completed = 1
 GROUP BY category
 ORDER BY total DESC;`,
     footer: 'DATABASE: MySQL',
-    note: 'Illustrative query showing filtering, grouping and sorting.',
+    note: 'Example: filtering, grouping and sorting data with SQL.',
   },
   {
     label: 'Machine Learning (Basics)',
@@ -122,7 +122,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 model.fit(X_train, y_train)
 print(model.score(X_test, y_test))`,
     footer: 'FOCUS: Machine Learning fundamentals',
-    note: 'Illustrative snippet of a train / test workflow.',
+    note: 'Example: splitting data into training and test sets.',
   },
   {
     label: 'HTML, CSS, JavaScript',
@@ -134,7 +134,7 @@ const items = JSON.parse(localStorage.getItem("items")) || [];
 items.push({ title: "New activity", done: false });
 localStorage.setItem("items", JSON.stringify(items));`,
     footer: 'WEB: HTML / CSS / JavaScript',
-    note: 'Illustrative snippet of the LocalStorage approach used in Student Activity Tracker.',
+    note: 'Example: saving data with LocalStorage, as in Student Activity Tracker..',
   },
   {
     label: 'Git & GitHub',
@@ -146,7 +146,7 @@ git add .
 git commit -m "Add progress tracking"
 git push origin main`,
     footer: 'TOOLS: Git, GitHub',
-    note: 'Illustrative commands for a basic commit and push workflow.',
+    note: 'Example: committing and pushing changes with Git.',
   },
 ]
 

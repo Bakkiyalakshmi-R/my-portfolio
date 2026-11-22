@@ -8,9 +8,7 @@ export default function Hero() {
     <section id="world" className="scene hero" aria-labelledby="hero-title" data-scene>
       <div className="container scene-inner">
         <div className="eyebrow tone-terracotta" data-enter>
-          <span className="eyebrow__label">Exhibition No. 01 — Spatial Prelude</span>
-          <span className="eyebrow__rule" aria-hidden="true" />
-          <span className="eyebrow__note">Curatorial Edition 2026</span>
+          <span className="eyebrow__label">The Entrance</span>
         </div>
 
         <div className="hero__grid">

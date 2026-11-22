@@ -7,7 +7,7 @@ export default function Certifications() {
   return (
     <section id="milestones" className="scene certs" aria-labelledby="certs-title" data-scene>
       <div className="container scene-inner tone-plum">
-        <SceneEyebrow tone="plum" label="Scene 07 — Paper-Like Timeline" />
+        <SceneEyebrow tone="plum" label="The Milestone Gallery" />
         <h2 id="certs-title" className="scene-heading" data-enter>
           Every Skill Has <em>a Story.</em>
         </h2>

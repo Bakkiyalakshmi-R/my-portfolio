@@ -43,7 +43,7 @@ export default function Skills() {
   return (
     <section id="technology" className="scene skills" aria-labelledby="skills-title" data-scene>
       <div className="container scene-inner tone-forest">
-        <SceneEyebrow tone="forest" label="Scene 04 — Artistic Tech Lab" />
+        <SceneEyebrow tone="forest" label="The Technology Studio" />
         <h2 id="skills-title" className="scene-heading" data-enter>
           My Technical <em>Toolbox.</em>
         </h2>
@@ -75,7 +75,7 @@ export default function Skills() {
           <div className="skills__showcase plate" data-enter>
             <header>
               <div>
-                <span className="kicker">Atelier Visualization</span>
+                <span className="kicker">Code Example	</span>
                 <AnimatePresence mode="wait">
                   <motion.h3
                     key={view.title}

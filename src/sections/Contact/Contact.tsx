@@ -38,7 +38,7 @@ export default function Contact() {
   return (
     <section id="connect" className="scene contact" aria-labelledby="contact-title" data-scene>
       <div className="container scene-inner tone-terracotta">
-        <SceneEyebrow label="Scene 08 — Final Convergence" />
+        <SceneEyebrow label="The Meeting Point" />
         <h2 id="contact-title" className="scene-heading" data-enter>
           Let’s Build Something <em>Meaningful.</em>
         </h2>

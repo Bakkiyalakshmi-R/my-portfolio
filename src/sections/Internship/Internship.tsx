@@ -7,7 +7,7 @@ export default function Internship() {
   return (
     <section id="experience" className="scene internship" aria-labelledby="intern-title" data-scene>
       <div className="container scene-inner tone-terracotta">
-        <SceneEyebrow label="Scene 05 — Operations Center" />
+        <SceneEyebrow label="The Experience Wing" />
         <h2 id="intern-title" className="scene-heading" data-enter>
           Real-World <em>Experience.</em>
         </h2>
