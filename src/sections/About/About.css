@@ -108,7 +108,9 @@
   color: var(--ink-80);
 }
 .pedestal--merit {
-  background: rgba(84, 45, 69, 0.1);
+  background:
+    linear-gradient(rgba(84, 45, 69, 0.1), rgba(84, 45, 69, 0.1)),
+    rgba(255, 255, 255, 0.95);
   border-color: rgba(84, 45, 69, 0.4);
 }
 .pedestal__figure {

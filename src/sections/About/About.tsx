@@ -13,11 +13,10 @@ export default function About() {
 
         <div className="about__grid">
           <article className="about__plate" data-enter>
-            <span className="about__badge">Curated Biography</span>
+            <span className="about__badge">About Me</span>
             <div className="about__text">
               <p>
-                I’m a third-year Computer Science student with a strong interest in Artificial Intelligence,
-                Data Science and Machine Learning.
+                I'm a final-year Computer Science student passionate about Artificial Intelligence, Data Science and Machine Learning.
               </p>
               <p>
                 I enjoy exploring how technology can transform raw information into meaningful insights and
@@ -32,28 +31,25 @@ export default function About() {
                 to learn, experiment and create.”
               </blockquote>
             </div>
-            <div className="about__label">
-              <span className="mono">IDENTITY VECTOR // MEDIUM: DATA &amp; CODE</span>
-              <span className="mono about__room">ROOM 02</span>
-            </div>
+            
           </article>
 
           <div className="about__pedestals" data-stagger>
             <article className="pedestal">
               <span className="kicker" style={{ ['--tone' as string]: 'var(--plum)' }}>
-                Degree // Specialization
+                Education
               </span>
               <h3>B.Sc. Computer Science</h3>
-              <p>Currently in Third Year at SSKV College of Arts and Science for Women.</p>
+              <p>Currently in Final Year at SSKV College of Arts and Science for Women.</p>
               <footer className="pedestal__foot tone-plum">
                 <i aria-hidden="true" />
-                Third Year Student
+                Final Year Student
               </footer>
             </article>
 
             <article className="pedestal pedestal--merit">
               <span className="kicker" style={{ ['--tone' as string]: 'var(--plum)' }}>
-                Academic Merit
+                Academic Performance
               </span>
               <strong className="pedestal__figure">81.4 %</strong>
               <p>Overall percentage in B.Sc. Computer Science.</p>
@@ -64,7 +60,7 @@ export default function About() {
             </article>
 
             <article className="pedestal">
-              <span className="kicker">Foundational Runtime</span>
+              <span className="kicker">Certifications</span>
               <h3>Python Programming</h3>
               <p>NPTEL Silver Badge (75%). Udemy Python for Machine Learning and Data Science bootcamp in progress.</p>
               <footer className="pedestal__foot tone-terracotta">
@@ -74,7 +70,7 @@ export default function About() {
             </article>
 
             <article className="pedestal">
-              <span className="kicker">Core Research Focus</span>
+              <span className="kicker">Areas of Interest</span>
               <h3>AI &amp; Data Science</h3>
               <p>Pattern recognition, machine learning pipelines, predictive energy models.</p>
               <footer className="pedestal__foot tone-forest">
