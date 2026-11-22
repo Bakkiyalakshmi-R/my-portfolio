@@ -23,15 +23,7 @@ const channels = [
     href: profile.github,
     external: true,
   },
-  {
-    key: 'phone',
-    tone: 'plum',
-    icon: 'call',
-    label: 'Direct Line',
-    value: profile.phoneDisplay,
-    href: profile.phoneHref,
-    external: false,
-  },
+
 ] as const
 
 export default function Contact() {

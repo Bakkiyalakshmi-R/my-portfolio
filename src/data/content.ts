@@ -4,8 +4,6 @@
 export const profile = {
   name: 'Bakkiyalakshmi R.',
   email: 'bakkiyalakshmibsc.cs2425@gmail.com',
-  phoneDisplay: '+91 6382635405',
-  phoneHref: 'tel:+916382635405',
   location: 'Kanchipuram, Tamil Nadu, India',
   linkedin: 'https://www.linkedin.com/in/bakkiyalakshmi-r-696166291',
   linkedinLabel: 'linkedin.com/in/bakkiyalakshmi-r-696166291',
